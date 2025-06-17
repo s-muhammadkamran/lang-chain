@@ -4,7 +4,7 @@ import os
 
 if load_dotenv():
     key = os.getenv('OPENAI_API_KEY')
-    prompt = os.getenv('USER_PROMPT')
+    prompt = os.getenv('USER_PROMPT1')
     model = ChatOpenAI(
         api_key = key,
         model='gpt-4.1-nano-2025-04-14',

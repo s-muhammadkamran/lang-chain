@@ -4,6 +4,7 @@ import os
 
 if load_dotenv():
     key = os.getenv('OPENAI_API_KEY')
+    prompt = os.getenv("USER_PROMPT1")
     model = OpenAI(
         api_key = key, 
         model='gpt-3.5-turbo',
@@ -12,7 +13,7 @@ if load_dotenv():
     )
     
     try:
-        result = model.invoke('What is happening in the ME?')
+        result = model.invoke(prompt)
         print(result)
     except Exception as ex:
         print(f"An error occoured:[>>>{ex}]")

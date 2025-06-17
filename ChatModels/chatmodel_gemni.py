@@ -4,7 +4,7 @@ import os
 
 if load_dotenv():
     key = os.getenv('GEMNI_API_KEY')
-    prompt = os.getenv('USER_PROMPT')    
+    prompt = os.getenv('USER_PROMPT1')    
     model = ChatGoogleGenerativeAI(
         api_key = key, 
         model='gemini-2.0-flash',

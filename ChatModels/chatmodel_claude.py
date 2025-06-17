@@ -4,7 +4,7 @@ import os
 
 if load_dotenv():
     key = os.getenv('CLAUDE_API_KEY')
-    prompt = os.getenv('USER_PROMPT')
+    prompt = os.getenv('USER_PROMPT1')
     model = ChatAnthropic(
         api_key = key, 
         model='claude-opus-4-20250514',

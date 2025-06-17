@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 hf_token = os.getenv("HUGGING_FACE_TOKEN")
-prompt = os.getenv("USER_PROMPT")
+prompt = os.getenv("USER_PROMPT2")
 
 # Safety checks
 if not hf_token:
