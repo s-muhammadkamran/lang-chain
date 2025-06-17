@@ -18,12 +18,12 @@
 
 ## Create a .env file at the root of the project and add values with following keys
 
-OPENAI_API_KEY = "---Provide Your own generated Key---"
-CLAUDE_API_KEY = "---Provide Your own generated Key---"
-GEMNI_API_KEY = "---Provide Your own generated Key---"
-HUGGING_FACE_TOKEN = "---Provide Your own generated Token---"
+OPENAI_API_KEY = "---Provide Your own generated Key---"  
+CLAUDE_API_KEY = "---Provide Your own generated Key---"  
+GEMNI_API_KEY = "---Provide Your own generated Key---"  
+HUGGING_FACE_TOKEN = "---Provide Your own generated Token---"  
 
-USER_PROMPT1 = "What has happened in World Politics today?"
-USER_PROMPT2 = "Translate Good bye to German"
+USER_PROMPT1 = "What has happened in World Politics today?"  
+USER_PROMPT2 = "Translate Good bye to German"  
 
 ## You are good to go
