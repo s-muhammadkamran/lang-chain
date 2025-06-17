@@ -1,6 +1,10 @@
 # How To Configure
 
-## Create a Python virtual environment
+## Clone the code using
+
+`git clone URL`
+
+## Create a Python virtual environment at the root of cloned folder
 
 `python -m venv venv`
 
