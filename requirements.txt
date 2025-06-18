@@ -24,3 +24,7 @@ python-dotenv
 # ML Utilities
 numpy
 scikit-learn
+
+# pytorch & TensorFlow
+torch
+tensorflow-cpu
