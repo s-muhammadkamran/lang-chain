@@ -1,4 +1,5 @@
 # LangChain Core
+langchain-community
 langchain
 langchain-core
 
@@ -18,9 +19,13 @@ langchain-huggingface
 transformers
 huggingface-hub
 
+# ollama
+langchain-ollama
+
 # .Evn support
 python-dotenv
 
 # ML Utilities
 numpy
 scikit-learn
+ipykernel
