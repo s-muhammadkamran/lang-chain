@@ -27,6 +27,9 @@ CLAUDE_API_KEY = "Require Payment. Provide Your own generated Key from [Anthropi
 GEMNI_API_KEY = "Provide Your own generated Key from [Google AI Studio](https://aistudio.google.com/app/apikey)"  
 HUGGING_FACE_TOKEN = "Provide Your own generated Token from [Hugging Face](https://huggingface.co/settings/tokens)"  
 
+# Provide a location to be used as cache for the downloaded Hugging Face models..
+HUGGING_FACE_LOCAL_CACHE_LOC = "LOCAL STORAGE LOCATION, Folder must exists."   
+
 USER_PROMPT1 = "What has happened in World Politics today?"  
 USER_PROMPT2 = "Translate Good bye to German"  
 
