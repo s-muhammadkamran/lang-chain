@@ -9,7 +9,7 @@ if load_dotenv():
         api_key = key, 
         model='gemini-2.0-flash',
         max_retries=2,
-        max_tokens_to_sample=200
+        #max_tokens_to_sample=200
     )
 
     try:        

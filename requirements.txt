@@ -22,6 +22,11 @@ huggingface-hub
 # ollama
 langchain-ollama
 
+# llama-index
+llama-index
+llama-index-llms-google-genai
+llama-index-llms-ollama
+
 # .Evn support
 python-dotenv
 
